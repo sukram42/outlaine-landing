@@ -3,7 +3,7 @@
 const nextConfig = {
   reactStrictMode: true,
   // distDir: 'dist',
-  output: 'export',
+  // output: 'export',
   swcMinify: true,
   distDir: "_next",
 };

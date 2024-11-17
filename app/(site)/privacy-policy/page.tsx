@@ -10,7 +10,10 @@ export const metadata: Metadata = {
 };
 
 const PrivacyPolicyPage = () => {
-    return (<div className="pb-20 pt-4"> <PrivacyPolicy/></div>);
+    return (
+        <div className="pb-20 pt-4">
+            <PrivacyPolicy />
+        </div>);
 };
 
 export default PrivacyPolicyPage;

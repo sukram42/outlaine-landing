@@ -1,0 +1,52 @@
+#privacy-policy {
+    padding: 2rem;
+
+    .policy {
+        &>div {
+            display: flex;
+            gap: 2em;
+
+            p,
+            div {
+                display: block;
+                flex: 1 1 0%;
+                padding-bottom: 0.5em;
+            }
+
+       
+            & > p:first-child{
+                text-align: end;
+            }
+
+            p:nth-child(2),
+            div:nth-child(2) {
+                flex: 2 1 0%;
+            }
+        }
+    }
+
+
+    h1 {
+        font-size: 1.8rem;
+        font-weight: 600;
+        padding-top: 1em;
+        padding-bottom: 1em;
+    }
+
+    p {
+        color: #6b7280;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    ul {
+        padding-left: 1.5rem;
+        list-style: disc;
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+    }
+}
