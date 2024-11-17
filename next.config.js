@@ -5,6 +5,7 @@ const nextConfig = {
   reactStrictMode: true,
   distDir: 'dist',
   output: 'export',
+  basePath: '/outlaine-landing',
   swcMinify: true,
   images: {
     domains: ["localhost"],
