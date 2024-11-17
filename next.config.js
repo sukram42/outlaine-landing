@@ -2,6 +2,9 @@
 
 const nextConfig = {
   reactStrictMode: true,
+  reactStrictMode: true,
+  distDir: 'dist',
+  output: 'export',
   swcMinify: true,
   images: {
     domains: ["localhost"],
