@@ -2,21 +2,20 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  reactStrictMode: true,
   distDir: 'dist',
   output: 'export',
   basePath: '/outlaine-landing',
   swcMinify: true,
-  images: {
-    domains: ["localhost"],
-    remotePatterns: [
-      {
-        protocol: "https",
-        hostname: "cdn.sanity.io",
-        port: "",
-      },
-    ],
-  },
+  // images: {
+  //   domains: ["localhost"],
+  //   remotePatterns: [
+  //     {
+  //       protocol: "https",
+  //       hostname: "cdn.sanity.io",
+  //       port: "",
+  //     },
+  //   ],
+  // },
 };
 
 module.exports = nextConfig;
