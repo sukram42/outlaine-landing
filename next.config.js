@@ -2,9 +2,11 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  distDir: 'dist',
+  // distDir: 'dist',
   output: 'export',
   swcMinify: true,
+  distDir: "_next",
+  generateBuildId: async () => { if (process.env.BUILD_ID) { return process.env.BUILD_ID; } else { return `${new Date().getTime()}`; } },
   // images: {
   //   domains: ["localhost"],
   //   remotePatterns: [
