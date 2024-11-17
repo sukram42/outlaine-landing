@@ -5,6 +5,7 @@ const nextConfig = {
   distDir: 'dist',
   output: 'export',
   basePath: '/outlaine-landing',
+  assetPrefix: "/outlaine-landing",
   swcMinify: true,
   // images: {
   //   domains: ["localhost"],
