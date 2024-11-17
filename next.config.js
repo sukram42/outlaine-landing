@@ -6,6 +6,9 @@ const nextConfig = {
   output: 'export',
   basePath: '/outlaine-landing',
   assetPrefix: "/outlaine-landing",
+  publicRuntimeConfig: {
+    basePath: "/outlaine-landing",
+  },
   swcMinify: true,
   // images: {
   //   domains: ["localhost"],
